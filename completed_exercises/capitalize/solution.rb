@@ -10,6 +10,7 @@
 def capitalize(str)
   str.split(' ').map do |str| str.capitalize end.join(' ')
 end
-  capitalize('a short sentence')
-  capitalize('a lazy fox') 
-  capitalize('look, it is working!') 
+
+capitalize('a short sentence')
+capitalize('a lazy fox') 
+capitalize('look, it is working!')
